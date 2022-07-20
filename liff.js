@@ -13,7 +13,7 @@ function initializeApp(data) {
     //var x = document.createElement("IFRAME");
     var x = document.getElementById("myFrame");
     var url = "https://script.google.com/macros/s/AKfycbxp_UM5tOO10qLVCak7vNVdaHfXfyBHE4cgCAV6AYuTFsHhpMAwohP2tmLvzXczLk38/exec" +"?lineid="+uid ;
-    x.setAttribute("src", url);
+    x.setAttribute("index", url);
     document.body.appendChild(x);
   
 
